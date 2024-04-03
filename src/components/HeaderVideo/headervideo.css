@@ -30,7 +30,6 @@ top: 80px;
 width: 100%;
 height: 75%;
 object-fit: cover;
-/* border: 3px solid yellowgreen; */
 }
 .video-play-btn{
     position: absolute;
@@ -198,8 +197,57 @@ a {
     font-size: 1rem;
 }
 
+/* Mobile responsive styles */
+@media only screen and (max-width: 768px) {
+    .padding-global {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 
+    .container-large {
+        max-width: 100%; 
+    }
 
+    .home-hero_card-wrapper {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto; 
+        grid-column-gap: 0;
+        grid-row-gap: 1.5rem; 
+        margin-top: 0; 
+    }
+
+    .left-card-wrapper {
+        max-width: 100%; 
+        padding: 1rem; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+
+    .watch-video-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .watch-video-btn {
+        padding: 0.75rem 1.5rem; 
+        font-size: 1rem;
+    }
+
+    .mwc-banner {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    h5 {
+        font-size: 1rem; 
+    }
+
+    .button {
+        padding: 0.75rem 1.5rem; 
+    }
+}
 
 
 

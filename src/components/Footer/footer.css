@@ -160,10 +160,6 @@ label {
     justify-content: space-between;
     display: flex;
 }
-/* .w-inline-block {
-    max-width: 100%;
-    display: inline-block;
-} */
 a {
     color: var(--black-text);
     overflow-wrap: normal;
@@ -191,6 +187,31 @@ a {
     letter-spacing: .25px;
     font-size: .875rem;
     font-weight: 400;
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .padding-global {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .padding-section-footer {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .footer_content-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_list-wrapper-flex {
+        flex-direction: column;
+    }
+
+    .footer_company-content-wrapper-1,
+    .footer_company-content-wrapper-2 {
+        grid-column-gap: 0;
+    }
 }
 
 

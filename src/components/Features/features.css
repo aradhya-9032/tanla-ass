@@ -102,3 +102,30 @@ h4 {
     margin-bottom: 0;
     font-family: Gilroy, Verdana, sans-serif;
 }
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .padding-global {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    ._3-features_main-wrapper {
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+
+    ._3-features_grid {
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
