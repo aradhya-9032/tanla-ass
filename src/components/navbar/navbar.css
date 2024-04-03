@@ -1,0 +1,137 @@
+/* .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+  }
+  
+  .nav-link:hover {
+    background-color: #f5f5f5;
+    color: #007bff;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0,0,0, .6)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+  } */
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .nav-border{
+    background-color: #7fdad2;
+    width: 100% !important;
+    height: 5px;
+    position: absolute;
+    top: -1px;
+  }
+ .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 1px;
+ }
+  .logo{
+    min-width: 100px;
+    height: 24px;
+    cursor: pointer;
+    object-fit: contain;
+    margin-top: 30px;
+  }
+  .nav-links{
+    min-width: 624px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .nav-links p{
+    cursor: pointer;
+    font-weight: 550;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  p{
+    overflow-wrap: normal;
+    margin-bottom: 0;
+    font-family: Gilroy, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 150%;
+  }
+  .search-container{
+    margin-top: 20px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border:2px solid red; */
+    position: relative;
+  }
+  .get-btn{
+    min-width: 150px;
+    border-radius: 200px;
+    border: none;
+    background-color: #7fdad2;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #000;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
+    font-family: Gilroy, Verdana, sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: inherit;
+  }
+  .navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.search-icon{
+  color: var(--black-text);
+  overflow-wrap: normal;
+  font-size: 1.4rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 3px;
+  left: -50px;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,243 @@
+.footer_component {
+    border-top: 4px solid #7fdad2;
+    border-bottom: 0 transparent;
+}
+.padding-global {
+    padding-left: 6.75rem;
+    padding-right: 6.75rem;
+    display: block;
+}
+.container-large {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.padding-section-footer {
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+.footer_content-wrapper {
+    grid-column-gap: 36px;
+    grid-row-gap: 36px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 2fr .75fr;
+    grid-auto-columns: 1fr;
+    align-items: start;
+    display: grid;
+}
+.footer_list-wrapper-flex {
+    grid-column-gap: 90px;
+    grid-row-gap: 90px;
+    display: flex;
+}
+.footer_list-wrapper {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex-direction: column;
+    display: flex;
+}
+h4 {
+    overflow-wrap: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Gilroy, Verdana, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 140%;
+}
+.footer_link-wrapper {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    flex-direction: column;
+    display: flex;
+}
+.footer-link {
+    letter-spacing: .25px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+a {
+    color: var(--black-text);
+    overflow-wrap: normal;
+    /* font-size: 1rem; */
+    text-decoration: none;
+}
+.footer_list-wrapper {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex-direction: column;
+    display: flex;
+}
+.footer_company-content-wrapper {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+}
+.footer_company-content-wrapper-1 {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    flex-direction: column;
+    display: flex;
+}
+.footer_company-content-wrapper-2 {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex-direction: column;
+    display: flex;
+}
+p {
+    overflow-wrap: normal;
+    margin-bottom: 0;
+    font-family: Gilroy, Verdana, sans-serif;
+    font-size: 1.125rem;
+    line-height: 150%;
+}
+.subscribe-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    align-self: stretch;
+}
+label {
+    margin-bottom: 0;
+    font-weight: 700;
+    display: block;
+}
+.subscribe-container .email-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #d9d9d9;
+    color: #000;
+    font-family: "Gilroy-Regular", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.315px;
+}
+.notSelected {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 30px;
+    /* background-color: transparent;
+    border-bottom: 1px solid #d9d9d9; */
+}
+.subscribe-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.form-subscribe-btn {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    height: 36px;
+    padding: 0px 28px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 200px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.footer_social-media-icon-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+/* .w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+} */
+a {
+    color: var(--black-text);
+    overflow-wrap: normal;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer_additonal-content-wrapper {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+    justify-content: space-between;
+    display: flex;
+}
+.footer_additional-links-wrapper {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    align-self: center;
+    display: flex;
+}
+.footer-link-small {
+    letter-spacing: .25px;
+    font-size: .875rem;
+    font-weight: 400;
+}
+.text-xsmall {
+    letter-spacing: .25px;
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
