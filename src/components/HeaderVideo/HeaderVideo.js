@@ -46,7 +46,7 @@ const handleTogglePlay = () =>{
               <link href="https://tanla.azureedge.net/assets/css/homeWatchVideoModal.css"/>
                 <div className='watch-video-btn'> 
                 <a href='https://www.tanla.com/'>         
-                <p>Watch Video</p>
+                <p style={{color:"white"}}>Watch Video</p>
                 </a> 
                 </div>
               </div>
